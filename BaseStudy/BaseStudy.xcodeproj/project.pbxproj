@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A62C619B217ED28300265170 /* MultiInheritModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C6195217ED28300265170 /* MultiInheritModel.m */; };
+		A62C619C217ED28300265170 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C6196217ED28300265170 /* BaseModel.m */; };
+		A62C619D217ED28300265170 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C619A217ED28300265170 /* BaseViewController.m */; };
+		A636F943219A713100DFEDD9 /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A636F942219A713100DFEDD9 /* RuntimeViewController.m */; };
 		A6A8E600210FF39B00C30F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E5FF210FF39B00C30F2D /* AppDelegate.m */; };
 		A6A8E603210FF39B00C30F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E602210FF39B00C30F2D /* ViewController.m */; };
 		A6A8E606210FF39B00C30F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A8E604210FF39B00C30F2D /* Main.storyboard */; };
@@ -15,6 +19,20 @@
 		A6A8E60E210FF39B00C30F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E60D210FF39B00C30F2D /* main.m */; };
 		A6A8E618210FF39B00C30F2D /* BaseStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E617210FF39B00C30F2D /* BaseStudyTests.m */; };
 		A6A8E623210FF39B00C30F2D /* BaseStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E622210FF39B00C30F2D /* BaseStudyUITests.m */; };
+		A6A8E6602112B1AF00C30F2D /* PLeakSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6512112B1AF00C30F2D /* PLeakSniffer.m */; };
+		A6A8E6612112B1AF00C30F2D /* NSObject+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6522112B1AF00C30F2D /* NSObject+PLeak.m */; };
+		A6A8E6622112B1AF00C30F2D /* NSObject+PLeakTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6542112B1AF00C30F2D /* NSObject+PLeakTrack.m */; };
+		A6A8E6632112B1AF00C30F2D /* UINavigationController+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6552112B1AF00C30F2D /* UINavigationController+PLeak.m */; };
+		A6A8E6642112B1AF00C30F2D /* PObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6562112B1AF00C30F2D /* PObjectProxy.m */; };
+		A6A8E6652112B1AF00C30F2D /* UIView+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6572112B1AF00C30F2D /* UIView+PLeak.m */; };
+		A6A8E6662112B1AF00C30F2D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A6A8E6582112B1AF00C30F2D /* .gitkeep */; };
+		A6A8E6672112B1AF00C30F2D /* UIViewController+PLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6592112B1AF00C30F2D /* UIViewController+PLeak.m */; };
+		A6A8E69A2114425F00C30F2D /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E6982114425F00C30F2D /* BlockViewController.m */; };
+		A6A8E69D2114428A00C30F2D /* BlockFuncModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E69C2114428A00C30F2D /* BlockFuncModel.m */; };
+		A6ED65862191372B0032B281 /* ViewDrawStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ED65852191372B0032B281 /* ViewDrawStudyViewController.m */; };
+		A6ED65A3219581A10032B281 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ED65A2219581A10032B281 /* NSObject+Swizzling.m */; };
+		A6ED65A6219A5CED0032B281 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ED65A5219A5CED0032B281 /* UIViewController+Swizzling.m */; };
+		A6ED65A9219A6A9A0032B281 /* UIImage+DownloadURL.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ED65A8219A6A9A0032B281 /* UIImage+DownloadURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A62C6195217ED28300265170 /* MultiInheritModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiInheritModel.m; sourceTree = "<group>"; };
+		A62C6196217ED28300265170 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		A62C6197217ED28300265170 /* MultiInheritModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiInheritModel.h; sourceTree = "<group>"; };
+		A62C6198217ED28300265170 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A62C6199217ED28300265170 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		A62C619A217ED28300265170 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A636F941219A713100DFEDD9 /* RuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeViewController.h; sourceTree = "<group>"; };
+		A636F942219A713100DFEDD9 /* RuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeViewController.m; sourceTree = "<group>"; };
 		A6A8E5FB210FF39B00C30F2D /* BaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A8E5FE210FF39B00C30F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6A8E5FF210FF39B00C30F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +77,34 @@
 		A6A8E61E210FF39B00C30F2D /* BaseStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A8E622210FF39B00C30F2D /* BaseStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseStudyUITests.m; sourceTree = "<group>"; };
 		A6A8E624210FF39B00C30F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A8E6372110161400C30F2D /* BaseStudy.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseStudy.pch; sourceTree = "<group>"; };
+		A6A8E6512112B1AF00C30F2D /* PLeakSniffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLeakSniffer.m; sourceTree = "<group>"; };
+		A6A8E6522112B1AF00C30F2D /* NSObject+PLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PLeak.m"; sourceTree = "<group>"; };
+		A6A8E6532112B1AF00C30F2D /* UIViewController+PLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PLeak.h"; sourceTree = "<group>"; };
+		A6A8E6542112B1AF00C30F2D /* NSObject+PLeakTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PLeakTrack.m"; sourceTree = "<group>"; };
+		A6A8E6552112B1AF00C30F2D /* UINavigationController+PLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PLeak.m"; sourceTree = "<group>"; };
+		A6A8E6562112B1AF00C30F2D /* PObjectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PObjectProxy.m; sourceTree = "<group>"; };
+		A6A8E6572112B1AF00C30F2D /* UIView+PLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PLeak.m"; sourceTree = "<group>"; };
+		A6A8E6582112B1AF00C30F2D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A6A8E6592112B1AF00C30F2D /* UIViewController+PLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PLeak.m"; sourceTree = "<group>"; };
+		A6A8E65A2112B1AF00C30F2D /* NSObject+PLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PLeak.h"; sourceTree = "<group>"; };
+		A6A8E65B2112B1AF00C30F2D /* PLeakSniffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLeakSniffer.h; sourceTree = "<group>"; };
+		A6A8E65C2112B1AF00C30F2D /* UIView+PLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PLeak.h"; sourceTree = "<group>"; };
+		A6A8E65D2112B1AF00C30F2D /* PObjectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PObjectProxy.h; sourceTree = "<group>"; };
+		A6A8E65E2112B1AF00C30F2D /* NSObject+PLeakTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PLeakTrack.h"; sourceTree = "<group>"; };
+		A6A8E65F2112B1AF00C30F2D /* UINavigationController+PLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PLeak.h"; sourceTree = "<group>"; };
+		A6A8E6982114425F00C30F2D /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		A6A8E6992114425F00C30F2D /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		A6A8E69B2114428A00C30F2D /* BlockFuncModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockFuncModel.h; sourceTree = "<group>"; };
+		A6A8E69C2114428A00C30F2D /* BlockFuncModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockFuncModel.m; sourceTree = "<group>"; };
+		A6ED65842191372B0032B281 /* ViewDrawStudyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDrawStudyViewController.h; sourceTree = "<group>"; };
+		A6ED65852191372B0032B281 /* ViewDrawStudyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDrawStudyViewController.m; sourceTree = "<group>"; };
+		A6ED65A1219581A10032B281 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		A6ED65A2219581A10032B281 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		A6ED65A4219A5CED0032B281 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		A6ED65A5219A5CED0032B281 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		A6ED65A7219A6A9A0032B281 /* UIImage+DownloadURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DownloadURL.h"; sourceTree = "<group>"; };
+		A6ED65A8219A6A9A0032B281 /* UIImage+DownloadURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DownloadURL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +159,16 @@
 				A6A8E5FF210FF39B00C30F2D /* AppDelegate.m */,
 				A6A8E601210FF39B00C30F2D /* ViewController.h */,
 				A6A8E602210FF39B00C30F2D /* ViewController.m */,
+				A6ED65A0219581790032B281 /* Runtime */,
+				A6A8E6972114425F00C30F2D /* Block */,
+				A6A8E630210FFBC300C30F2D /* Base */,
 				A6A8E604210FF39B00C30F2D /* Main.storyboard */,
+				A6A8E63B2112B19500C30F2D /* Lib */,
 				A6A8E607210FF39B00C30F2D /* Assets.xcassets */,
 				A6A8E609210FF39B00C30F2D /* LaunchScreen.storyboard */,
 				A6A8E60C210FF39B00C30F2D /* Info.plist */,
 				A6A8E60D210FF39B00C30F2D /* main.m */,
+				A6A8E6372110161400C30F2D /* BaseStudy.pch */,
 			);
 			path = BaseStudy;
 			sourceTree = "<group>";
@@ -130,6 +189,85 @@
 				A6A8E624210FF39B00C30F2D /* Info.plist */,
 			);
 			path = BaseStudyUITests;
+			sourceTree = "<group>";
+		};
+		A6A8E630210FFBC300C30F2D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A62C6199217ED28300265170 /* BaseModel.h */,
+				A62C6196217ED28300265170 /* BaseModel.m */,
+				A62C6198217ED28300265170 /* BaseViewController.h */,
+				A62C619A217ED28300265170 /* BaseViewController.m */,
+				A62C6197217ED28300265170 /* MultiInheritModel.h */,
+				A62C6195217ED28300265170 /* MultiInheritModel.m */,
+				A6ED65842191372B0032B281 /* ViewDrawStudyViewController.h */,
+				A6ED65852191372B0032B281 /* ViewDrawStudyViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A6A8E63B2112B19500C30F2D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8E64F2112B1AF00C30F2D /* PLeakSniffer */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A6A8E64F2112B1AF00C30F2D /* PLeakSniffer */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8E6502112B1AF00C30F2D /* Classes */,
+			);
+			path = PLeakSniffer;
+			sourceTree = "<group>";
+		};
+		A6A8E6502112B1AF00C30F2D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8E6512112B1AF00C30F2D /* PLeakSniffer.m */,
+				A6A8E6522112B1AF00C30F2D /* NSObject+PLeak.m */,
+				A6A8E6532112B1AF00C30F2D /* UIViewController+PLeak.h */,
+				A6A8E6542112B1AF00C30F2D /* NSObject+PLeakTrack.m */,
+				A6A8E6552112B1AF00C30F2D /* UINavigationController+PLeak.m */,
+				A6A8E6562112B1AF00C30F2D /* PObjectProxy.m */,
+				A6A8E6572112B1AF00C30F2D /* UIView+PLeak.m */,
+				A6A8E6582112B1AF00C30F2D /* .gitkeep */,
+				A6A8E6592112B1AF00C30F2D /* UIViewController+PLeak.m */,
+				A6A8E65A2112B1AF00C30F2D /* NSObject+PLeak.h */,
+				A6A8E65B2112B1AF00C30F2D /* PLeakSniffer.h */,
+				A6A8E65C2112B1AF00C30F2D /* UIView+PLeak.h */,
+				A6A8E65D2112B1AF00C30F2D /* PObjectProxy.h */,
+				A6A8E65E2112B1AF00C30F2D /* NSObject+PLeakTrack.h */,
+				A6A8E65F2112B1AF00C30F2D /* UINavigationController+PLeak.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A6A8E6972114425F00C30F2D /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				A6A8E6992114425F00C30F2D /* BlockViewController.h */,
+				A6A8E6982114425F00C30F2D /* BlockViewController.m */,
+				A6A8E69B2114428A00C30F2D /* BlockFuncModel.h */,
+				A6A8E69C2114428A00C30F2D /* BlockFuncModel.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		A6ED65A0219581790032B281 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				A6ED65A1219581A10032B281 /* NSObject+Swizzling.h */,
+				A6ED65A2219581A10032B281 /* NSObject+Swizzling.m */,
+				A6ED65A4219A5CED0032B281 /* UIViewController+Swizzling.h */,
+				A6ED65A5219A5CED0032B281 /* UIViewController+Swizzling.m */,
+				A6ED65A7219A6A9A0032B281 /* UIImage+DownloadURL.h */,
+				A6ED65A8219A6A9A0032B281 /* UIImage+DownloadURL.m */,
+				A636F941219A713100DFEDD9 /* RuntimeViewController.h */,
+				A636F942219A713100DFEDD9 /* RuntimeViewController.m */,
+			);
+			path = Runtime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +379,7 @@
 				A6A8E60B210FF39B00C30F2D /* LaunchScreen.storyboard in Resources */,
 				A6A8E608210FF39B00C30F2D /* Assets.xcassets in Resources */,
 				A6A8E606210FF39B00C30F2D /* Main.storyboard in Resources */,
+				A6A8E6662112B1AF00C30F2D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +404,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A8E6622112B1AF00C30F2D /* NSObject+PLeakTrack.m in Sources */,
+				A62C619D217ED28300265170 /* BaseViewController.m in Sources */,
+				A6ED65A9219A6A9A0032B281 /* UIImage+DownloadURL.m in Sources */,
+				A6ED65A6219A5CED0032B281 /* UIViewController+Swizzling.m in Sources */,
+				A6A8E6672112B1AF00C30F2D /* UIViewController+PLeak.m in Sources */,
 				A6A8E603210FF39B00C30F2D /* ViewController.m in Sources */,
+				A6A8E69D2114428A00C30F2D /* BlockFuncModel.m in Sources */,
+				A6A8E69A2114425F00C30F2D /* BlockViewController.m in Sources */,
 				A6A8E60E210FF39B00C30F2D /* main.m in Sources */,
+				A6A8E6612112B1AF00C30F2D /* NSObject+PLeak.m in Sources */,
+				A6A8E6652112B1AF00C30F2D /* UIView+PLeak.m in Sources */,
+				A6ED65862191372B0032B281 /* ViewDrawStudyViewController.m in Sources */,
 				A6A8E600210FF39B00C30F2D /* AppDelegate.m in Sources */,
+				A6A8E6642112B1AF00C30F2D /* PObjectProxy.m in Sources */,
+				A62C619C217ED28300265170 /* BaseModel.m in Sources */,
+				A6A8E6632112B1AF00C30F2D /* UINavigationController+PLeak.m in Sources */,
+				A6ED65A3219581A10032B281 /* NSObject+Swizzling.m in Sources */,
+				A636F943219A713100DFEDD9 /* RuntimeViewController.m in Sources */,
+				A6A8E6602112B1AF00C30F2D /* PLeakSniffer.m in Sources */,
+				A62C619B217ED28300265170 /* MultiInheritModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +587,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HLG59NNZ5H;
+				GCC_PREFIX_HEADER = BaseStudy/BaseStudy.pch;
 				INFOPLIST_FILE = BaseStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.BaseStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +604,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLG59NNZ5H;
+				GCC_PREFIX_HEADER = BaseStudy/BaseStudy.pch;
 				INFOPLIST_FILE = BaseStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taotao.BaseStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
