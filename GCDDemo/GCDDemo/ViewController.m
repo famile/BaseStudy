@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-//#import "AFNetworking.h"
+#import "AFNetworking.h"
 #import "UIViewController+test.h"
 
 @interface ViewController ()<ViewControllerDelegate>
@@ -35,7 +35,7 @@
         第二个参数用来识别是串行队列还是并行队列（DISPATCH_QUEUE_SERIAL  DISPATCH_QUEUE_CONCURRENT）
      2、对于并发队列，还可以使用dispatch_get_global_queue来创建全局并发队列。
         GCD默认提供了全局的并发队列，需要两个参数，第一个表示优先级，一般使用
-        DISPATCH_QUEUE_PRIORITY_DEFAULT,第二个参数暂时没用，用0即可
+        DISPATCH_QUEUE_PRIORITY_DEFAULT,第二个参数暂时没用，用  0即可
      */
     dispatch_queue_t squeue = dispatch_queue_create("test.queue", DISPATCH_QUEUE_SERIAL);
     dispatch_queue_t aqueue2 = dispatch_queue_create("test.queue", DISPATCH_QUEUE_CONCURRENT);
@@ -55,7 +55,7 @@
 //    [self syncTask:mainQueue];//所有任务都是在主线程执行的，syncTask和第一个任务都是在等对方执行完成，这样大家互相等待，就卡住了，所以任务执行不了
     
 //    [self asyncTask:mainQueue];
-//    [self asyncTask:squeue];
+//    [self asyncTask:aqueue2];
 //    [self asyncTask:aqueue3];
 
 #pragma mark - 线程间的通信
@@ -144,7 +144,7 @@
 
 
 - (void)syncTask:(dispatch_queue_t)queue{
-     NSLog(@"asyncMain---begin");
+     NSLog(@"syncMain---begin");
     dispatch_sync(queue, ^{
         for (int i = 0; i < 2; ++i) {
             NSLog(@"1------%@",[NSThread currentThread]);
@@ -160,7 +160,7 @@
             NSLog(@"3------%@",[NSThread currentThread]);
         }
     });
-    NSLog(@"asyncMain---end");
+    NSLog(@"syncMain---end");
 }
 
 - (void)asyncTask:(dispatch_queue_t)queue{
@@ -215,6 +215,9 @@
     dispatch_queue_t queue = dispatch_queue_create("queue", DISPATCH_QUEUE_CONCURRENT);
     dispatch_async(queue, ^{
         NSLog(@"----1-----%@", [NSThread currentThread]);
+    });
+    dispatch_async(queue, ^{
+        NSLog(@"----1-2-----%@", [NSThread currentThread]);
     });
     dispatch_barrier_async(queue, ^{
         NSLog(@"----barrier-----%@", [NSThread currentThread]);

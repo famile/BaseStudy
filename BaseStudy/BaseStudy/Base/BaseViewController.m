@@ -345,6 +345,35 @@
      initialize是在类或者其子类的第一个方法被调用前调用。类被引用，但是没有使用，initialize不会被调用
      */
     
+    
+#pragma mark - 网络知识
+    /*
+     网络的七层架构
+     应用层          http协议
+     表示层
+     会话层
+     传输层          TCP、UDP
+     网络层          IP
+     数据链路层
+     物理层
+     
+     
+     1.HTTP 和HTTPS 的区别：
+        1.一种网络传送数据的超文本传输协议，以明文的方式传送数据，r不安全
+        2.https，是在http的基础上建立ssl加密层，需要https证书
+     2.TCP和UDP的区别
+        1.TCP是面向连接的，通过3次握手建立连接，之后才能传输数据，还要数据检测，超时重发，保证数据从一段传输到另一端
+        2.UDP 用户数据包协议，不与对象建立联系，不保证数据的可靠性
+        TCP的3次握手：
+            客户端发送syn包（syn=j）到服务端，并进入SYN_SEND状态，等待服务器确认
+            服务端收到syn包后，必须确认客户的syn（ajk=j+1），同时也发送一个syn包（syn=k），即SYN+ACK包，此时服务器进入SYN_RECV状态
+            客户端收到SYN+ACK后，向service发送确认包ACK(ack=k+1)，发送完成后，client和service同时ESTABLISHED状态
+     
+     3.socket和http的区别：
+        1.
+     
+     */
+    
 }
 
 #pragma mark - BaseTestDelegate

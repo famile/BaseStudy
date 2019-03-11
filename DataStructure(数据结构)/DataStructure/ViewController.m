@@ -18,20 +18,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSArray *arr = @[@3,@4,@5,@1,@2];
-    
+//    NSArray *arr = @[@3,@4,@5,@1,@2];
+    NSArray *arr = @[@1,@2,@3,@4,@5];
 //    [self bubbleSortWithArr:arr];
 //    [self chooseSortWithArr:arr];
 //    [self insertSortWithArr:arr];
-//    [self getMaxCommonDivisorWithNum1:4 num2:4];
+    [self getMaxCommonDivisorWithNum1:4 num2:4];
     [self binarySearchWithArray:@[@"1",@"2",@"3",@"4"] withSearchNum:3];
     
 //    NSInteger count = [self recursionFactorialWithNum:2];
 //    NSLog(@"%@",@(count));
     
-//    NSMutableArray *mutableArr = [NSMutableArray arrayWithArray:arr];
-//    [self quickSortWithArr:mutableArr left:0 right:4];
-//    NSLog(@"%@",mutableArr);
+    NSMutableArray *mutableArr = [NSMutableArray arrayWithArray:arr];
+    [self quickSortWithArr:mutableArr left:0 right:4];
+    NSLog(@"%@",mutableArr);
 //
 //    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
 //    NSBlockOperation *op = [NSBlockOperation blockOperationWithBlock:^{

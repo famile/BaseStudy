@@ -35,6 +35,10 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector){
     swizzleMethod([self class], @selector(viewDidAppear:), @selector(swizzled_viewDidAppear:));
 }
 
++ (void)initialize{
+    
+}
+
 - (void)swizzled_viewDidAppear:(BOOL)animated
 {
     // call original implementation
