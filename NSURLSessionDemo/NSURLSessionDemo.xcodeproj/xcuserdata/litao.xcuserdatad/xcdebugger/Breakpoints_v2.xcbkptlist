@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSURLSessionDemo/AFNetworking/AFNetworking/AFURLSessionManager.m"
-            timestampString = "514369919.307845"
+            timestampString = "577788142.469393"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1107"
@@ -22,16 +22,90 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NSURLSessionDemo/AFNetworking/AFNetworking/AFURLSessionManager.m"
-            timestampString = "514369921.914885"
+            filePath = "NSURLSessionDemo/AFNetworking/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "577783793.817232"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1122"
-            endingLineNumber = "1122"
-            landmarkName = "-URLSession:dataTask:didBecomeDownloadTask:"
+            startingLineNumber = "1241"
+            endingLineNumber = "1241"
+            landmarkName = "-requestBySerializingRequest:withParameters:error:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/AFNetworking/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "577788142.601226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1241"
+                  endingLineNumber = "1241"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/AFNetworking/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "577788142.603363"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1241"
+                  endingLineNumber = "1241"
+                  offsetFromSymbolStart = "122">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/AFNetworking/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "577783793.817299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1322"
+            endingLineNumber = "1322"
+            landmarkName = "-requestBySerializingRequest:withParameters:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+            timestampString = "577787966.7205"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +115,525 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NSURLSessionDemo/AFNetworking/AFNetworking/AFURLSessionManager.m"
-            timestampString = "514369930.702585"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+            timestampString = "577785160.830215"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1164"
-            endingLineNumber = "1164"
-            landmarkName = "-URLSessionDidFinishEventsForBackgroundURLSession:"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "-loadImageWithURL:options:progress:completed:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SDWebImageManager loadImageWithURL:options:progress:completed:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+                  timestampString = "577788142.651601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "134">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SDWebImageManager loadImageWithURL:options:progress:completed:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+                  timestampString = "577788142.6540689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "162">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577786649.154214"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "531"
+            endingLineNumber = "531"
+            landmarkName = "-queryCacheOperationForKey:options:done:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577786649.155249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "-cachePathForKey:inPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577786649.155777"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "-initWithNamespace:diskCacheDirectory:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577786649.156166"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577786649.156523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "485"
+            endingLineNumber = "485"
+            landmarkName = "-diskImageForKey:data:options:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577786649.156858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "487"
+            endingLineNumber = "487"
+            landmarkName = "-diskImageForKey:data:options:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+            timestampString = "577787966.720997"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "-sd_setImage:imageData:basedOnClassOrViaCustomSetImageBlock:cacheType:imageURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+            timestampString = "577787966.721527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+            timestampString = "577787966.72182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+                  timestampString = "577788142.716689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "2502">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+                  timestampString = "577788142.718357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "3221">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+            timestampString = "577787966.722065"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+            timestampString = "577787966.722394"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+                  timestampString = "577788142.726619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "2502">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:internalSetImageBlock:progress:completed:context:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/UIView+WebCache.m"
+                  timestampString = "577788142.728385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "3221">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+            timestampString = "577786959.6522779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "-loadImageWithURL:options:progress:completed:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SDWebImageManager loadImageWithURL:options:progress:completed:]"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+                  timestampString = "577788142.73279"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "1738">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+                  timestampString = "577788142.734531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "111">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/UIView+WebCacheOperation.m"
+            timestampString = "577787106.689365"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-sd_setImageLoadOperation:forKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577787195.488259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "553"
+            endingLineNumber = "553"
+            landmarkName = "-queryCacheOperationForKey:options:done:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageDownloader.m"
+            timestampString = "577788142.470107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
+            landmarkName = "-downloadImageWithURL:options:progress:completed:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+            timestampString = "577787252.72426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "-loadImageWithURL:options:progress:completed:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+                  timestampString = "577788142.74923"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[SDWebImageManager loadImageWithURL:options:progress:completed:]_block_invoke_2"
+                  moduleName = "NSURLSessionDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/litao/Desktop/git-repository/BaseStudy/NSURLSessionDemo/NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+                  timestampString = "577788142.751008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577787999.169769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "444"
+            endingLineNumber = "444"
+            landmarkName = "-diskImageDataBySearchingAllPathsForKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDImageCache.m"
+            timestampString = "577788008.5380549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "451"
+            endingLineNumber = "451"
+            landmarkName = "-diskImageDataBySearchingAllPathsForKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageManager.m"
+            timestampString = "577788055.987062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "-loadImageWithURL:options:progress:completed:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageDownloader.m"
+            timestampString = "577788725.724586"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
+            landmarkName = "-URLSession:dataTask:didReceiveResponse:completionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageDownloader.m"
+            timestampString = "577788726.602165"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "367"
+            endingLineNumber = "367"
+            landmarkName = "-URLSession:dataTask:didReceiveResponse:completionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSURLSessionDemo/SDWebImage/SDWebImageDownloaderOperation.m"
+            timestampString = "577788796.438301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "-URLSession:dataTask:didReceiveResponse:completionHandler:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -1,0 +1,14 @@
+//
+//  DataStructure.pch
+//  DataStructure
+//
+//  Created by 李涛 on 2019/4/15.
+//  Copyright © 2019 Tao_Lee. All rights reserved.
+//
+
+#ifndef DataStructure_pch
+#define DataStructure_pch
+
+#import <UIKit/UIKit.h>
+
+#endif /* DataStructure_pch */

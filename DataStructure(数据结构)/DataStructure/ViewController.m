@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyArray.h"
 
 @interface ViewController ()
 
@@ -48,6 +49,12 @@
     char a = 'a';
     char b[] = {'a','b'};
     NSLog(@"%lu,%lu,%lu,%lu",sizeof(a),sizeof(char *),sizeof(b),sizeof(&b));
+    
+    
+    MyArray *myArr = [[MyArray alloc] initWithCapacity:2];
+    [myArr addObject:@"1"];
+    [myArr addObject:@"2"];
+//    [myArr addObject:@"3"];
     
 }
 

@@ -8,8 +8,11 @@
 
 #import "ViewController.h"
 #import "AFNetworking.h"
-
+#import "UIImageView+WebCache.h"
 @interface ViewController ()<NSURLSessionDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgv;
+
 
 @end
 
@@ -21,6 +24,8 @@
     
     [self requestStudentList];
     [self afnRequest];
+    
+    [_imgv sd_setImageWithURL:[NSURL URLWithString:@"http://www.pptok.com/wp-content/uploads/2012/08/xunguang-7.jpg"] placeholderImage:nil];
     
 }
 
@@ -36,9 +41,9 @@
      */
     
     NSURLSessionDataTask *jsonData = [session dataTaskWithURL:[NSURL URLWithString:@"http://182.92.192.206:8080/jeesite/rest/student/tips"] completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        
-        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-        NSLog(@"%@",dic);
+        NSLog(@"%@",data);
+//        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+//        NSLog(@"%@",dic);
     }];
     [jsonData resume];
     [jsonData suspend];

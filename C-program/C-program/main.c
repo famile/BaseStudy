@@ -19,7 +19,7 @@
 
 #endif
 
-
+int* twoSum(int* nums, int numsSize, int target);
 int maxNum(int,int);
 void getSeconds(unsigned long *par);
 double getAverage(int *arr, int size);
@@ -65,9 +65,26 @@ int main(int argc, const char * argv[]) {
     int arr[] = {5,3,2,4,1};
 //    bubble_sort(arr, 5);
 //    selection_sort(arr, 5);
-    insert_sort(arr, 5);
+//    insert_sort(arr, 5);
     printArr(arr, 5);
     
+    twoSum(arr, 5, 9);
+    printf("");
+    
+    return 0;
+}
+
+int* twoSum(int* nums, int numsSize, int target) {
+    static int res[2] = {};
+    for (int i = 0; i<numsSize; i++) {
+        for (int j = i+1; j < numsSize; j++) {
+            if (nums[i] + nums[j] == target) {
+                res[0] = i;
+                res[1] = j;
+                return res;
+            }
+        }
+    }
     return 0;
 }
 
