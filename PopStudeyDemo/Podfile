@@ -1,0 +1,8 @@
+target ‘PopStudyDemo’ do
+
+
+platform :ios, '8.0'
+pod 'lottie-ios', :git => 'https://github.com/airbnb/lottie-ios.git'
+pod "pop"
+
+end

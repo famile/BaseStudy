@@ -11,6 +11,8 @@
 		A62C619C217ED28300265170 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C6196217ED28300265170 /* BaseModel.m */; };
 		A62C619D217ED28300265170 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C619A217ED28300265170 /* BaseViewController.m */; };
 		A636F943219A713100DFEDD9 /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A636F942219A713100DFEDD9 /* RuntimeViewController.m */; };
+		A6A6FB14228D153500415BDD /* XZDHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A6FB11228D153500415BDD /* XZDHook.m */; };
+		A6A6FB15228D153500415BDD /* UIViewController+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A6FB12228D153500415BDD /* UIViewController+logger.m */; };
 		A6A8E600210FF39B00C30F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E5FF210FF39B00C30F2D /* AppDelegate.m */; };
 		A6A8E603210FF39B00C30F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8E602210FF39B00C30F2D /* ViewController.m */; };
 		A6A8E606210FF39B00C30F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A8E604210FF39B00C30F2D /* Main.storyboard */; };
@@ -61,6 +63,10 @@
 		A62C619A217ED28300265170 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		A636F941219A713100DFEDD9 /* RuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeViewController.h; sourceTree = "<group>"; };
 		A636F942219A713100DFEDD9 /* RuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeViewController.m; sourceTree = "<group>"; };
+		A6A6FB10228D153500415BDD /* XZDHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZDHook.h; path = ../../../RuntimeStudy/RuntimeStudy/XZDHook.h; sourceTree = "<group>"; };
+		A6A6FB11228D153500415BDD /* XZDHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZDHook.m; path = ../../../RuntimeStudy/RuntimeStudy/XZDHook.m; sourceTree = "<group>"; };
+		A6A6FB12228D153500415BDD /* UIViewController+logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+logger.m"; path = "../../../RuntimeStudy/RuntimeStudy/UIViewController+logger.m"; sourceTree = "<group>"; };
+		A6A6FB13228D153500415BDD /* UIViewController+logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+logger.h"; path = "../../../RuntimeStudy/RuntimeStudy/UIViewController+logger.h"; sourceTree = "<group>"; };
 		A6A8E5FB210FF39B00C30F2D /* BaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A8E5FE210FF39B00C30F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6A8E5FF210FF39B00C30F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -258,6 +264,10 @@
 		A6ED65A0219581790032B281 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				A6A6FB13228D153500415BDD /* UIViewController+logger.h */,
+				A6A6FB12228D153500415BDD /* UIViewController+logger.m */,
+				A6A6FB10228D153500415BDD /* XZDHook.h */,
+				A6A6FB11228D153500415BDD /* XZDHook.m */,
 				A6ED65A1219581A10032B281 /* NSObject+Swizzling.h */,
 				A6ED65A2219581A10032B281 /* NSObject+Swizzling.m */,
 				A6ED65A4219A5CED0032B281 /* UIViewController+Swizzling.h */,
@@ -418,11 +428,13 @@
 				A6ED65862191372B0032B281 /* ViewDrawStudyViewController.m in Sources */,
 				A6A8E600210FF39B00C30F2D /* AppDelegate.m in Sources */,
 				A6A8E6642112B1AF00C30F2D /* PObjectProxy.m in Sources */,
+				A6A6FB15228D153500415BDD /* UIViewController+logger.m in Sources */,
 				A62C619C217ED28300265170 /* BaseModel.m in Sources */,
 				A6A8E6632112B1AF00C30F2D /* UINavigationController+PLeak.m in Sources */,
 				A6ED65A3219581A10032B281 /* NSObject+Swizzling.m in Sources */,
 				A636F943219A713100DFEDD9 /* RuntimeViewController.m in Sources */,
 				A6A8E6602112B1AF00C30F2D /* PLeakSniffer.m in Sources */,
+				A6A6FB14228D153500415BDD /* XZDHook.m in Sources */,
 				A62C619B217ED28300265170 /* MultiInheritModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,7 +15,10 @@
 		A64D8BF41EC432A600F5B1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64D8BF21EC432A600F5B1C7 /* LaunchScreen.storyboard */; };
 		A64D8BFF1EC432A600F5B1C7 /* RuntimeStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D8BFE1EC432A600F5B1C7 /* RuntimeStudyTests.m */; };
 		A64D8C0A1EC432A600F5B1C7 /* RuntimeStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A64D8C091EC432A600F5B1C7 /* RuntimeStudyUITests.m */; };
+		A6A6FB0F228D02C100415BDD /* UIViewController+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A6FB0E228D02C100415BDD /* UIViewController+logger.m */; };
+		A6A6FB2C228E53B900415BDD /* UIButton+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A6FB2B228E53B900415BDD /* UIButton+logger.m */; };
 		A6D4A7711EC99822007859E4 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4A7701EC99822007859E4 /* MyClass.m */; };
+		A6F2218A228C1BD50099127F /* XZDHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F22189228C1BD50099127F /* XZDHook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +55,14 @@
 		A64D8C051EC432A600F5B1C7 /* RuntimeStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64D8C091EC432A600F5B1C7 /* RuntimeStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeStudyUITests.m; sourceTree = "<group>"; };
 		A64D8C0B1EC432A600F5B1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A6FB0D228D02C100415BDD /* UIViewController+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+logger.h"; sourceTree = "<group>"; };
+		A6A6FB0E228D02C100415BDD /* UIViewController+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+logger.m"; sourceTree = "<group>"; };
+		A6A6FB2A228E53B900415BDD /* UIButton+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+logger.h"; sourceTree = "<group>"; };
+		A6A6FB2B228E53B900415BDD /* UIButton+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+logger.m"; sourceTree = "<group>"; };
 		A6D4A76F1EC99822007859E4 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		A6D4A7701EC99822007859E4 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		A6F22188228C1BD50099127F /* XZDHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZDHook.h; sourceTree = "<group>"; };
+		A6F22189228C1BD50099127F /* XZDHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZDHook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,7 @@
 		A64D8BE31EC432A600F5B1C7 /* RuntimeStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A6F22187228C1BBD0099127F /* Common */,
 				A64D8BE71EC432A600F5B1C7 /* AppDelegate.h */,
 				A64D8BE81EC432A600F5B1C7 /* AppDelegate.m */,
 				A64D8BEA1EC432A600F5B1C7 /* ViewController.h */,
@@ -143,6 +153,19 @@
 				A64D8C0B1EC432A600F5B1C7 /* Info.plist */,
 			);
 			path = RuntimeStudyUITests;
+			sourceTree = "<group>";
+		};
+		A6F22187228C1BBD0099127F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A6F22188228C1BD50099127F /* XZDHook.h */,
+				A6F22189228C1BD50099127F /* XZDHook.m */,
+				A6A6FB0D228D02C100415BDD /* UIViewController+logger.h */,
+				A6A6FB0E228D02C100415BDD /* UIViewController+logger.m */,
+				A6A6FB2A228E53B900415BDD /* UIButton+logger.h */,
+				A6A6FB2B228E53B900415BDD /* UIButton+logger.m */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,7 +304,10 @@
 			files = (
 				A6D4A7711EC99822007859E4 /* MyClass.m in Sources */,
 				A64D8BEC1EC432A600F5B1C7 /* ViewController.m in Sources */,
+				A6A6FB0F228D02C100415BDD /* UIViewController+logger.m in Sources */,
+				A6A6FB2C228E53B900415BDD /* UIButton+logger.m in Sources */,
 				A64D8BE91EC432A600F5B1C7 /* AppDelegate.m in Sources */,
+				A6F2218A228C1BD50099127F /* XZDHook.m in Sources */,
 				A64D8BE61EC432A600F5B1C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

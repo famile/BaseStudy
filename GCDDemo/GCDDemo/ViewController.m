@@ -93,10 +93,10 @@
     /*
         需求:有时候分别异步执行2个耗时操作,当这两个耗时操作都执行完成后再回到主线程
      */
-//    [self group];
+    [self group];
     
 #pragma mark
-    [self group2];
+//    [self group2];
     
 #pragma mark 模拟网络请求的依次请求
 //    [self semaphore];
@@ -131,7 +131,7 @@
     
 //    self -> _name2;
     
-    NSLog(@"%@",self->_name2);
+//    NSLog(@"%@",self->_name2);
     
 }
 
@@ -277,9 +277,7 @@
         NSLog(@"完成任务一");
     });
     dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSLog(@"开启任务二");
         
-        NSLog(@"完成任务二");
     });
     dispatch_group_notify(group, dispatch_get_main_queue(), ^{
         NSLog(@"回到主线程");
@@ -314,7 +312,7 @@
     dispatch_group_async(group, queue, ^{
         NSLog(@"完成请求1");
         //标记一个信号量
-        sleep(1);
+        sleep(3);
         dispatch_semaphore_signal(semaphore);
     });
     

@@ -28,17 +28,17 @@
  
  */
 
-+ (void)load{
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        [UIViewController methodSwizzlingWithOriginalSelector:@selector(viewDidAppear:) bySwizzledSelector:@selector(lt_viewDidAppear:)];
-    });
-}
-
-- (void)lt_viewDidAppear:(BOOL)animated{
-    [self lt_viewDidAppear:animated];
-    NSLog(@"===== %@ viewDidAppear ====",[self class]);
-}
+//+ (void)load{
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        [UIViewController methodSwizzlingWithOriginalSelector:@selector(viewDidAppear:) bySwizzledSelector:@selector(lt_viewDidAppear:)];
+//    });
+//}
+//
+//- (void)lt_viewDidAppear:(BOOL)animated{
+//    [self lt_viewDidAppear:animated];
+//    NSLog(@"===== %@ viewDidAppear ====",[self class]);
+//}
 
 
 @end
