@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6173FCA229BD45B00B5E3BF /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FC7229BD45A00B5E3BF /* NavigationViewController.m */; };
+		A6173FCB229BD45B00B5E3BF /* YXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FC9229BD45B00B5E3BF /* YXBaseModel.m */; };
+		A6174007229BD4A600B5E3BF /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FF5229BD4A600B5E3BF /* MJPropertyType.m */; };
+		A6174008229BD4A600B5E3BF /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FF8229BD4A600B5E3BF /* NSObject+MJKeyValue.m */; };
+		A6174009229BD4A600B5E3BF /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FF9229BD4A600B5E3BF /* MJProperty.m */; };
+		A617400A229BD4A600B5E3BF /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FFB229BD4A600B5E3BF /* NSObject+MJCoding.m */; };
+		A617400B229BD4A600B5E3BF /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FFD229BD4A600B5E3BF /* MJExtensionConst.m */; };
+		A617400C229BD4A600B5E3BF /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A6173FFE229BD4A600B5E3BF /* NSObject+MJProperty.m */; };
+		A617400D229BD4A600B5E3BF /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A6174000229BD4A600B5E3BF /* NSObject+MJClass.m */; };
+		A617400E229BD4A600B5E3BF /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A6174001229BD4A600B5E3BF /* NSString+MJExtension.m */; };
+		A617400F229BD4A600B5E3BF /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A6174002229BD4A600B5E3BF /* MJPropertyKey.m */; };
+		A6174010229BD4A600B5E3BF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6174006229BD4A600B5E3BF /* MJFoundation.m */; };
 		A6F22122228BFAEB0099127F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F22121228BFAEB0099127F /* AppDelegate.m */; };
 		A6F22125228BFAEB0099127F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F22124228BFAEB0099127F /* ViewController.m */; };
 		A6F22128228BFAEB0099127F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F22126228BFAEB0099127F /* Main.storyboard */; };
@@ -49,6 +61,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6173FC6229BD45900B5E3BF /* YXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBaseModel.h; sourceTree = "<group>"; };
+		A6173FC7229BD45A00B5E3BF /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		A6173FC8229BD45A00B5E3BF /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		A6173FC9229BD45B00B5E3BF /* YXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBaseModel.m; sourceTree = "<group>"; };
+		A6173FF2229BD4A600B5E3BF /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		A6173FF3229BD4A600B5E3BF /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		A6173FF4229BD4A600B5E3BF /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		A6173FF5229BD4A600B5E3BF /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		A6173FF6229BD4A600B5E3BF /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		A6173FF7229BD4A600B5E3BF /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		A6173FF8229BD4A600B5E3BF /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		A6173FF9229BD4A600B5E3BF /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		A6173FFA229BD4A600B5E3BF /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		A6173FFB229BD4A600B5E3BF /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		A6173FFC229BD4A600B5E3BF /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		A6173FFD229BD4A600B5E3BF /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		A6173FFE229BD4A600B5E3BF /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		A6173FFF229BD4A600B5E3BF /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		A6174000229BD4A600B5E3BF /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		A6174001229BD4A600B5E3BF /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		A6174002229BD4A600B5E3BF /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		A6174003229BD4A600B5E3BF /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		A6174004229BD4A600B5E3BF /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		A6174005229BD4A600B5E3BF /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		A6174006229BD4A600B5E3BF /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
 		A6F2211D228BFAEB0099127F /* YXBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F22120228BFAEB0099127F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6F22121228BFAEB0099127F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +155,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6173FF1229BD4A600B5E3BF /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A6173FF2229BD4A600B5E3BF /* MJPropertyKey.h */,
+				A6173FF3229BD4A600B5E3BF /* NSObject+MJClass.h */,
+				A6173FF4229BD4A600B5E3BF /* NSString+MJExtension.h */,
+				A6173FF5229BD4A600B5E3BF /* MJPropertyType.m */,
+				A6173FF6229BD4A600B5E3BF /* NSObject+MJProperty.h */,
+				A6173FF7229BD4A600B5E3BF /* MJExtensionConst.h */,
+				A6173FF8229BD4A600B5E3BF /* NSObject+MJKeyValue.m */,
+				A6173FF9229BD4A600B5E3BF /* MJProperty.m */,
+				A6173FFA229BD4A600B5E3BF /* MJFoundation.h */,
+				A6173FFB229BD4A600B5E3BF /* NSObject+MJCoding.m */,
+				A6173FFC229BD4A600B5E3BF /* MJExtension.h */,
+				A6173FFD229BD4A600B5E3BF /* MJExtensionConst.m */,
+				A6173FFE229BD4A600B5E3BF /* NSObject+MJProperty.m */,
+				A6173FFF229BD4A600B5E3BF /* MJPropertyType.h */,
+				A6174000229BD4A600B5E3BF /* NSObject+MJClass.m */,
+				A6174001229BD4A600B5E3BF /* NSString+MJExtension.m */,
+				A6174002229BD4A600B5E3BF /* MJPropertyKey.m */,
+				A6174003229BD4A600B5E3BF /* MJProperty.h */,
+				A6174004229BD4A600B5E3BF /* NSObject+MJKeyValue.h */,
+				A6174005229BD4A600B5E3BF /* NSObject+MJCoding.h */,
+				A6174006229BD4A600B5E3BF /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
 		A6F22114228BFAEB0099127F = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +243,10 @@
 		A6F22152228BFB120099127F /* YXBaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				A6173FC8229BD45A00B5E3BF /* NavigationViewController.h */,
+				A6173FC7229BD45A00B5E3BF /* NavigationViewController.m */,
+				A6173FC6229BD45900B5E3BF /* YXBaseModel.h */,
+				A6173FC9229BD45B00B5E3BF /* YXBaseModel.m */,
 				A6F22184228C0D5A0099127F /* YXBaseVC.bundle */,
 				A6F22175228BFCE70099127F /* YXBaseVCHeader.h */,
 				A6F2215F228BFBC60099127F /* BaseViewController.h */,
@@ -200,6 +269,7 @@
 		A6F22162228BFBE80099127F /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				A6173FF1229BD4A600B5E3BF /* MJExtension */,
 				A6F2216C228BFCBA0099127F /* DZNEmptyDataSet */,
 				A6F22163228BFBF30099127F /* FDFullscreenPopGesture */,
 			);
@@ -388,17 +458,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F22178228BFE800099127F /* CommonTools.m in Sources */,
+				A6174009229BD4A600B5E3BF /* MJProperty.m in Sources */,
 				A6F22125228BFAEB0099127F /* ViewController.m in Sources */,
+				A6173FCA229BD45B00B5E3BF /* NavigationViewController.m in Sources */,
+				A617400A229BD4A600B5E3BF /* NSObject+MJCoding.m in Sources */,
 				A6F22180228C015C0099127F /* UIView+Extension.m in Sources */,
+				A6174008229BD4A600B5E3BF /* NSObject+MJKeyValue.m in Sources */,
+				A6174010229BD4A600B5E3BF /* MJFoundation.m in Sources */,
 				A6F22161228BFBC60099127F /* BaseViewController.m in Sources */,
+				A617400E229BD4A600B5E3BF /* NSString+MJExtension.m in Sources */,
+				A6173FCB229BD45B00B5E3BF /* YXBaseModel.m in Sources */,
 				A6F2215B228BFBA20099127F /* YXBaseTableViewController.m in Sources */,
 				A6F2216A228BFBF30099127F /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				A6F22173228BFCBA0099127F /* UIScrollView+EmptyDataSet.m in Sources */,
 				A6F22130228BFAED0099127F /* main.m in Sources */,
+				A617400C229BD4A600B5E3BF /* NSObject+MJProperty.m in Sources */,
 				A6F2215E228BFBB40099127F /* YXBaseDetailViewController.m in Sources */,
 				A6F22157228BFB810099127F /* YXWeakScriptMessageDelegate.m in Sources */,
 				A6F2217C228C00CF0099127F /* MyControl.m in Sources */,
+				A617400B229BD4A600B5E3BF /* MJExtensionConst.m in Sources */,
+				A6174007229BD4A600B5E3BF /* MJPropertyType.m in Sources */,
 				A6F22122228BFAEB0099127F /* AppDelegate.m in Sources */,
+				A617400D229BD4A600B5E3BF /* NSObject+MJClass.m in Sources */,
+				A617400F229BD4A600B5E3BF /* MJPropertyKey.m in Sources */,
 				A6F22158228BFB810099127F /* YXWebViewController.m in Sources */,
 				A6F22183228C03080099127F /* YXNewWebViewController.m in Sources */,
 			);

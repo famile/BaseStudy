@@ -163,6 +163,7 @@
     }
     if ([keyPath isEqualToString:@"URL"]) {
         NSString *urlStr = [_webView.URL absoluteString];
+        urlStr = [urlStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
 //        if ([urlStr containsString:YYZScheme]) {
 //            [SchemeTool pushTargetViewControllerWithTargetUrl:urlStr];
 //        }
@@ -324,6 +325,8 @@
         if (_contentStr) {
             [_webView loadHTMLString:_contentStr baseURL:nil];
         }else{
+            //url收尾进行去空格处理
+            _urlStr = [_urlStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
             [_webView loadRequest:[NSMutableURLRequest requestWithURL:[NSURL URLWithString:_urlStr]]];
         }
         if (self.useWebTitle) {
