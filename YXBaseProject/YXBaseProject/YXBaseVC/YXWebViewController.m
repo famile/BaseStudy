@@ -82,7 +82,38 @@
 }
 // API是根据WebView对于即将跳转的HTTP请求头信息和相关信息来决定是否跳转
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler{
+    NSURL *url = navigationAction.request.URL;
+    NSString *scheme = [url scheme];
+    UIApplication *app = [UIApplication sharedApplication];
+    // 打电话
+    if ([scheme isEqualToString:@"tel"]) {
+        if ([app canOpenURL:url]) {
+            [app openURL:url];
+            // 一定要加上这句,否则会打开新页面
+            decisionHandler(WKNavigationActionPolicyCancel);
+            return;
+        }
+    }
+    // 打开appstore
+    if ([url.absoluteString containsString:@"itunes.apple.com"]) {
+        if ([app canOpenURL:url]) {
+            [app openURL:url];
+            decisionHandler(WKNavigationActionPolicyCancel);
+            return;
+        }
+    }
     
+    if ([url.absoluteString containsString:@"itms-services://"]) {
+        if (@available(iOS 10.0, *)) {
+            [app openURL:url options:@{} completionHandler:^(BOOL success) {
+                
+            }];
+        } else {
+            [app openURL:url];
+        }
+        decisionHandler(WKNavigationActionPolicyCancel);
+        return;
+    }
     decisionHandler(WKNavigationActionPolicyAllow);
 }
 #pragma mark - WKUIDelegate
