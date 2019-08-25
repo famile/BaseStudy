@@ -90,7 +90,7 @@ static NSString *const identifier = @"cell";
 #pragma mark - init
 
 - (void)initUI{
-    self.dataArr = [NSMutableArray arrayWithArray:@[@"BaseViewController",@"BlockViewController",@"ViewDrawStudyViewController",@"RuntimeViewController"]];
+    self.dataArr = [NSMutableArray arrayWithArray:@[@"BaseViewController", @"BlockViewController", @"ViewDrawStudyViewController", @"RuntimeViewController", @"ObjectViewController", @"RuntimeRunloopViewController", @"RunLoopViewController", @"InterviewGCDViewController", @"MemoryManagerViewController"]];
     
     self.tableView.frame = CGRectMake(0, NavH, ScreenWidth, ScreenHeight-NavH);
     [self.view addSubview:self.tableView];
