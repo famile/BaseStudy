@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "PLeakSniffer.h"
 
+NSString *app = @"123";
+
 @interface AppDelegate ()
 
 @end

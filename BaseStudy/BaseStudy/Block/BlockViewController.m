@@ -49,6 +49,24 @@
      
      */
     
+    /*
+     block 类型：
+     
+     global: 没有访问auto变量
+     stackBlock: 访问auto变量
+     mallocBlock: stackBlock调用copy
+     
+     __strong __weak __block
+     当block在栈上，就不会产生强引用
+     
+     如果block copy到堆上，
+        会调用内部的copy函数  copy函数调用_Block_object_assign函数
+        _Block_object_assign函数会根据auto变量的修饰符做出相应的操作，强引用或者弱引用
+     如果block从堆上移除
+        会调用block内部的dispose函数
+     
+     */
+    
     
     
     

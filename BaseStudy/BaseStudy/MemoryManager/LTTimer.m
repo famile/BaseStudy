@@ -25,7 +25,7 @@ dispatch_semaphore_t semaphore_;
     if (!task || start < 0 || (interval <= 0 && repeats)) return nil;
     
     // 队列
-    dispatch_queue_t queue = async ? dispatch_queue_create("lt_timer", DISPATCH_QUEUE_SERIAL) : dispatch_get_main_queue();
+    dispatch_queue_t queue = async ? dispatch_get_global_queue(0, 0) : dispatch_get_main_queue();
     // 创建定时器
     dispatch_source_t timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
     // 设置时间

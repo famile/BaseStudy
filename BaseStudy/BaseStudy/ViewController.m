@@ -10,6 +10,9 @@
 #import "BaseViewController.h"
 #import "BlockViewController.h"
 #import "ViewDrawStudyViewController.h"
+#import <objc/runtime.h>
+#import <malloc/malloc.h>
+#import "LTPerson.h"
 
 static NSString *const identifier = @"cell";
 
@@ -26,6 +29,34 @@ static NSString *const identifier = @"cell";
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self initUI];
+    
+    extern NSString *app;
+    NSLog(@"%@", app);
+    
+    
+    NSObject *obj = [[NSObject alloc] init];
+    NSLog(@"%@,%zu", @(class_getInstanceSize([obj class])), malloc_size((__bridge const void *)(obj)));
+    
+    /// isa指针  实例对象的isa指向class对象， class对象的isa指向meta-class对象，meta-class的isa指向基类的meta-class对象
+    
+    NSLog(@"%p-%p", [obj class],[[obj class] class]);
+    
+    NSLog(@"%p-%p", object_getClass(obj), object_getClass([obj class]));
+    
+    LTPerson *person = [[LTPerson alloc] init];
+    person.name = @"1234";
+    NSLog(@"%@",[person class]);
+    NSLog(@"%p",[person methodForSelector:@selector(setName:)]);
+    [person addObserver:self forKeyPath:@"name" options:(NSKeyValueObservingOptionNew) context:nil];
+    NSLog(@"%@",[person class]);
+    NSLog(@"%p",[person methodForSelector:@selector(setName:)]);
+    
+    
+}
+
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated{

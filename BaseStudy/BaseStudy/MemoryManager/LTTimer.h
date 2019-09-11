@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LTTimer : NSObject
 
 + (NSString *)execTask:(void(^)(void))task
-           start:(NSTimeInterval)start
-        interval:(NSTimeInterval)interval
-         repeats:(BOOL)repeats
-           async:(BOOL)async;
+                 start:(NSTimeInterval)start
+              interval:(NSTimeInterval)interval
+               repeats:(BOOL)repeats
+                 async:(BOOL)async;
 
 + (NSString *)execTask:(id)target
               selector:(SEL)selector
